@@ -1,0 +1,177 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+body {
+  padding-top: 120px;
+  padding-bottom: 5%;
+  color: #5a5a5a;
+  background: #292929;
+}
+
+/* NAVBAR STYLES
+-------------------------------------------------- */
+
+.navbar {
+  background-color: black;
+  padding-left: 3%;
+  padding-right: 46px;
+}
+
+/*** Navbar brand ***/
+
+.navbar .navbar-brand {
+  color: #FFC933;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  margin: 0 auto;
+}
+
+.navbar .navbar-brand .navbar-brand-white {
+  color: white;
+}
+
+/*** Navbar Nav Item ***/
+
+.navbar-nav .nav-item .nav-link{
+  color: white;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #FFC933;
+}
+
+/*** Navbar Right ***/
+
+.navbar .navbar-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: 14px;
+  right: 3%;  
+}
+
+/*** Navbar Right Search Form ***/
+
+.navbar .navbar-right .form-inline {
+  position: relative;
+  margin: 0px 24px 0px 0px;
+}
+
+.navbar .navbar-right .form-inline .search-input {
+  border-radius: 10px;
+  background-color: #292929;
+  border-color: #292929;
+  color: white;
+  padding-left: 36px;
+  height: 46px;
+}
+
+.navbar .navbar-right .form-inline .search-input::placeholder  {
+  color: #C1C1C1;
+}
+
+.navbar .navbar-right .form-inline .search-input:hover, .navbar .navbar-right .form-inline .search-input:focus {
+  border-color: #FFC933;
+}
+
+.navbar .navbar-right .form-inline .fa-search {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  color: #C1C1C1;
+  font-size: 16px;
+}
+/*** Navbar Right Profile ***/
+
+.navbar .navbar-right .navbar-right-profile-btn {
+  padding: 0px;
+  margin: 0px;
+  background-color: transparent;  
+}
+
+.navbar .navbar-right .navbar-right-profile-btn .navbar-profile-avatar {    
+  width: 46px;
+  height: 46px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/*** Navbar Toggler ***/
+
+.navbar .navbar-toggler .fa-bars {
+  color: #C4C4C4;
+  font-size: 24px;
+}
+
+/*** Navbar Collapse ***/
+
+.navbar .navbar-collapse {
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;    
+}
+
+/* BODY MAIN STYLES
+-------------------------------------------------- */
+
+main {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/*** Book Item ***/
+
+.book-item {  
+  display: flex;
+  flex-direction: row;    
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.book-item-body {
+  width: 100%;
+  max-width: 290px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+a.book-item-body {
+  text-decoration: none;
+}
+
+.book-item-body:hover {  
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.book-item-body img {    
+  width: 100%;
+  aspect-ratio:2.9/4.1;
+  object-fit: cover;  
+  border-radius: 10px;
+  background-color: gray;
+  margin-bottom: 10px;
+}
+
+.book-item-body .title {
+  width: 100%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+
+.book-item-body .author {
+  width: 100%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
